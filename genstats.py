@@ -19,7 +19,7 @@ for i in range(n):
     datum = {}
     datum['i'] = i
     for line in d:
-        if line.count(',') != 1:
+        if ',' not in line:
             continue
         name, stats = line.strip().split(',')
         stats = float(stats.split('/')[0].strip()[:-3])
