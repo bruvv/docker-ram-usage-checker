@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-log_path = "/stats/docker-logs.txt"
+log_path = "docker-logs.txt"
 
 with open(log_path) as f:
     raw_data = f.readlines()
@@ -30,4 +30,4 @@ data = pd.DataFrame(data)
 data['time (hour)'] = data['i'] * 10 / 60
 ax = data.drop(columns='i').set_index('time (hour)').plot()
 ax.set_ylabel('RAM Usage (MiB)')
-ax.figure.savefig('/stats/plot.png')
+ax.figure.savefig('plot.png')
