@@ -1,6 +1,7 @@
-# docker-ram-usage-checker
+# Docker Ram Usage CHecker
 ![image](https://user-images.githubusercontent.com/3063928/52045886-bcadf900-2545-11e9-8cf5-d65381433072.png)
-get detailed reports of what is doing what with RAM usage.
+
+Get detailed reports of what is doing what with RAM usage.
 
 ## How to run it?
   - set a cron job to have ```recordstat.sh``` run every +- 10 minutes.
