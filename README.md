@@ -1,4 +1,4 @@
-# Docker Ram Usage CHecker
+# Docker Ram Usage Checker
 ![image](https://user-images.githubusercontent.com/3063928/52045886-bcadf900-2545-11e9-8cf5-d65381433072.png)
 
 Get detailed reports of what is doing what with RAM usage.
