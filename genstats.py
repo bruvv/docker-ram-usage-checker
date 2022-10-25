@@ -16,8 +16,7 @@ for i in range(n):
     start = i * nrows
     end = start + nrows - 1
     d = raw_data[start:end]
-    datum = {}
-    datum['i'] = i
+    datum = {'i': i}
     for line in d:
         if ',' not in line:
             continue
